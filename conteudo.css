@@ -1,0 +1,126 @@
+/*-------------------------------------------------------------------------
+                FORMATAÇÃO DO INDEX
+---------------------------------------------------------------------------*/
+section#inicio p {
+    margin: 3vw 5vw 2vw 5vw;
+    text-align: center;
+}
+section#inicio p:last-of-type {
+    padding: 0 5vw 2vw 5vw;
+    border-bottom: 7px solid white;
+}
+
+section#dialogo {
+    display: flex;
+    justify-content: center;
+    padding: 3vw 1vw 2vw 1vw;
+}
+section#dialogo div {
+    padding: 2vw;
+    border-bottom: 7px solid white;
+}
+section#dialogo div img.personagem {
+    width: 350px;
+    height: 400px;
+}
+section#dialogo div a img {
+    width: 500px;
+}
+section#dialogo div a img:hover {
+    cursor: pointer;
+}
+
+section#estudos {
+    padding: 3vw 5vw 2vw 5vw;
+    display: flex;
+    justify-content: center;
+}
+section#estudos p {
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------
+                FORMATAÇÃO DE CÉLULAS
+---------------------------------------------------------------------------*/
+section#celulas div {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 3vw 2vw 3vw;
+}
+section#celulas div p {
+    border-bottom: 7px solid white;
+    margin: 2vw 3vw 2vw 3vw;
+}
+section#celulas div:last-of-type p {
+    border: none;
+}
+section#celulas div:last-of-type {
+    border-bottom: 7px solid white;
+    padding: 2vw;
+}
+section#celulas div img {
+    width: 400px;
+}
+
+section#saberMais {
+    text-align: center;
+    padding: 2vw 0 5vw 0;
+}
+section#saberMais p {
+    margin: 1vw 0 3vw 0;
+}
+section#saberMais a {
+    background-color: #FFFFFF;
+    color: #90B4D6;
+    border-radius: 20px;
+    padding: 1vw 2vw 1vw 2vw;
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------------------------
+                FORMATAÇÃO DE ORGANELAS
+---------------------------------------------------------------------------*/
+section#organelas {
+    text-align: center;
+}
+section#organelas p {
+    margin: 3vw;
+}
+
+section#organelas ul li {
+    border-bottom: 7px solid white;
+}
+
+section#organelas ul li p {
+    margin: 0 5vw 0 5vw;
+    padding: 2vw;
+}
+
+section#organelas ul li p strong, section#organelas ul li p ol li strong {
+    font-weight: bold;
+}
+
+section#info {
+    text-align: center;
+}
+section#info p {
+    margin: 2vw;
+}
+
+/*-------------------------------------------------------------------------
+                FORMATAÇÃO DE SOBRE NÓS
+---------------------------------------------------------------------------*/
+section#equipe h2 {
+    font-size: 40px;
+    margin: 3vw 0 2vw 5vw;
+}
+section#equipe div {
+    display: flex;
+    margin: 2vw 0 2vw 7vw;
+}
+section#equipe div ul {
+    list-style-type: circle;
+}
+section#equipe div a img {
+    height: 200px;
+}
